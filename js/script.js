@@ -63,7 +63,7 @@ while(gameResult){
     if (generateBombArray.includes(userAttempts)){
         gameResult=false;
         alert('Peccato hai perso!');
-        alert('Tentativi riusciti:'+ arrayEmpt)
+        alert('Tentativi riusciti:'+ arrayEmpt.length)
     }else{
         if(!generateBombArray.includes(userAttempts)){
             arrayEmpt.push(userAttempts);
